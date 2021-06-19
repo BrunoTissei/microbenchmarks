@@ -15,6 +15,7 @@ def parse_args():
                             'execution_fp',
                             'execution_int',
                             'execution_vec',
+                            'execution_vec512',
                             'memory'
                         ],
                         action = 'store',
@@ -35,9 +36,9 @@ def stat_gen(args, file, *params):
     real = subprocess.check_output([
         f"""
         TEMP=$(mktemp .stats.XXXXXX.tmp) &&
-        (sudo perf stat --repeat=100 ./bin/{file} {" ".join(map(str, params))}) > $TEMP.log 2>&1 && 
+        (sudo perf stat --repeat=1000 ./bin/{file} {" ".join(map(str, params))}) > $TEMP.log 2>&1 && 
         cat $TEMP.log | grep "insn per cycle" | awk \'{{ printf $4 }}\' &&
-        rm $TEMP
+        rm $TEMP.log
         """
     ], shell=True).decode('utf-8').replace(',', '.')
 
@@ -103,6 +104,15 @@ def main():
         stat_gen(args, 'execution_vec_vshufps_ind',   1*10**6)
         stat_gen(args, 'execution_vec_vsqrtpd_ind',   1*10**6)
         stat_gen(args, 'execution_vec_vxorpd_ind',    1*10**6)
+
+    elif args.type == 'execution_vec512':
+        stat_gen(args, 'execution_vec512_vaddpd_ind',     1*10**6)
+        stat_gen(args, 'execution_vec512_vdivpd_ind',     1*10**6)
+        stat_gen(args, 'execution_vec512_vmulpd_ind',     1*10**6)
+        stat_gen(args, 'execution_vec512_vpshufb_ind',    1*10**6)
+        stat_gen(args, 'execution_vec512_vpsllvd_ind',    1*10**6)
+        stat_gen(args, 'execution_vec512_vpxord_ind',     1*10**6)
+        stat_gen(args, 'execution_vec512_vrsqrt14ps_ind', 1*10**6)
 
     elif args.type == 'memory':
         stat_gen(args, 'memory_load_dep', 4*2048, 65536//64)
