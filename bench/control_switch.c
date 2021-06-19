@@ -72,67 +72,67 @@ int main (int argc, char *argv[]) {
             case 1:
                 if (i > jump_1)
                     jump++;
-                    print += 1;
-            break;
+                print += 1;
+                break;
 
             case 2:
                 if (i > jump_2)
                     jump++;
-                    print += 2;
-            break;
+                print += 2;
+                break;
 
             case 3:
                 if (i > jump_3)
                     jump++;
-                    print += 3;
-            break;
+                print += 3;
+                break;
 
             case 4:
                 if (i > jump_4)
                     jump++;
-                    print += 4;
-            break;
+                print += 4;
+                break;
 
             case 5:
                 if (i > jump_5)
                     jump++;
-                    print += 5;
-            break;
+                print += 5;
+                break;
 
             case 6:
                 if (i > jump_6)
                     jump++;
-                    print += 6;
-            break;
+                print += 6;
+                break;
 
             case 7:
                 if (i > jump_7)
                     jump++;
-                    print += 7;
-            break;
+                print += 7;
+                break;
 
             case 8:
                 if (i > jump_8)
                     jump++;
-                    print += 8;
-            break;
+                print += 8;
+                break;
 
             case 9:
                 if (i > jump_9)
                     jump++;
-                    print += 9;
-            break;
+                print += 9;
+                break;
 
             case 10:
                 if (i > jump_10)
                     jump++;
-                    print += 10;
-            break;
+                print += 10;
+                break;
 
             default:
                 printf("Please provide the correct number of inner-repetitions.\n");
                 exit(EXIT_FAILURE);
-            break;
+                break;
         }
     }
 

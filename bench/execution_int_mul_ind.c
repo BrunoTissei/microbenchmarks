@@ -96,7 +96,6 @@ int main (int argc, char *argv[]) {
     asm volatile ("nop");
     asm volatile ("nop");
 
-    printf("%"PRIu64"\n", count0);
-
+    printf("%lu\n", count0 + count1 + count2 + count3 + count4 + count5 + count6 + count7);
     exit(EXIT_SUCCESS);
 }
