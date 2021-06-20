@@ -113,12 +113,13 @@ def main():
 
     stats = {}
     compare = defaultdict(lambda: [])
-    order = ['Benchmark', 'Progress', 'ETC', args.dir]
+    bench_name = os.path.basename(args.dir)
+    order = ['Benchmark', 'Progress', 'ETC', f'{bench_name}']
 
     table = {
         'Benchmark': '<0',
         'Progress':  '>12',
-        args.dir:    f'>{len(args.dir) + 4}',
+        f'{bench_name}':  f'>{len(bench_name) + 4}',
         'ETC':       '>11'
     }
 
@@ -141,8 +142,9 @@ def main():
     # Parse compare args, building compare dict
     if len(args.compare) > 0:
         for comp in args.compare:
-            table[comp] = f'>{len(comp) + 4}'
-            order.append(comp)
+            comp_name = os.path.basename(comp)
+            table[comp_name] = f'>{len(comp_name) + 4}'
+            order.append(comp_name)
 
             for file in os.listdir(comp):
                 if file.endswith(".log"):
@@ -159,7 +161,7 @@ def main():
             result['Benchmark'] = bench
             result = get_result(args.dir + '/' + file, result)
             if 'IPC' in result:
-                result[args.dir] = result.pop('IPC')
+                result[bench_name] = result.pop('IPC')
 
             # Add real ipc values from "stats"
             if bench in stats:
@@ -169,7 +171,8 @@ def main():
             for comp, comp_files in compare.items():
                 if file in comp_files:
                     compare_result = get_result(comp + '/' + file)
-                    result[comp] = compare_result['IPC']
+                    comp_name = os.path.basename(comp)
+                    result[comp_name] = compare_result['IPC']
 
             # Build table line
             line = ''.join([ f'{result[field]:{table[field]}}' for field in order ])

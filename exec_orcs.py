@@ -45,21 +45,21 @@ def main():
     executables = []
     for file in os.listdir(trace_path):
         if 'dyn.out.gz' in file:
-            name = file.replace('.tid0.dyn.out.gz', '')
+            trace_name = file.replace('.tid0.dyn.out.gz', '')
+            result_name = file.replace('.out.tid0.dyn.out.gz', '')
+
             executables.append({
-                'trace': f'{trace_path}/{name}',
-                'result': f'{logs_path}/{name}.log'
+                'trace': f'{trace_path}/{trace_name}',
+                'result': f'{logs_path}/{result_name}.log'
             })
 
-    commands = [ f'./orcs -c {orcs_config_path} -t {i["trace"]} > {i["result"]}' for i in executables ]
+    num_cpu = min(args.num_cpu, len(executables))
+    lines = [ [] for i in range(num_cpu) ]
+    for i, exe in enumerate(executables):
+        orcs_exec = f'./orcs -c {orcs_config_path} -t {exe["trace"]} > {exe["result"]}'
+        lines[i % num_cpu].append(orcs_exec)
 
-
-    lines = []
-    step = (len(commands) - 1) // args.num_cpu + 1
-    for i in range(0, len(commands), step):
-        lines.append(' && '.join(commands[i:i+step]))
-
-    command = ' & '.join(lines) + ' & wait &'
+    command = ' & '.join([ ' && '.join(line) for line in lines ]) + ' & wait &'
 
     os.system(f'mkdir -p {logs_path}')
     os.system(f'cd {orcs_path}; {command}')
