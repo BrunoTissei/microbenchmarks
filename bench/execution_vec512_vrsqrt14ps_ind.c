@@ -60,15 +60,6 @@ int main (int argc, char *argv[]) {
     asm volatile("vsubpd %%zmm6, %%zmm6, %%zmm6" : : : "zmm6");
     asm volatile("vsubpd %%zmm7, %%zmm7, %%zmm7" : : : "zmm7");
 
-    asm volatile("vmovapd (%%rsp), %%zmm0" : : : "zmm0");
-    asm volatile("vmovapd (%%rsp), %%zmm1" : : : "zmm1");
-    asm volatile("vmovapd (%%rsp), %%zmm2" : : : "zmm2");
-    asm volatile("vmovapd (%%rsp), %%zmm3" : : : "zmm3");
-    asm volatile("vmovapd (%%rsp), %%zmm4" : : : "zmm4");
-    asm volatile("vmovapd (%%rsp), %%zmm5" : : : "zmm5");
-    asm volatile("vmovapd (%%rsp), %%zmm6" : : : "zmm6");
-    asm volatile("vmovapd (%%rsp), %%zmm7" : : : "zmm7");
-
     asm volatile("pop %%rbx" : : : "rbx");
 
     for (i = 1; i <= repetitions; i++) {
@@ -110,7 +101,6 @@ int main (int argc, char *argv[]) {
     }
 
     asm volatile("push $0x0":::);
-    asm volatile("vmovapd %%zmm0, (%%rsp)" : : : );
     asm volatile("mov (%%rsp), %0" : "=r"(count) : : );
     asm volatile("pop %%rbx" : : : "rbx");
 

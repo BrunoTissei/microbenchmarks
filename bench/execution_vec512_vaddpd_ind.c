@@ -59,15 +59,31 @@ int main (int argc, char *argv[]) {
     asm volatile("vsubpd %%zmm5, %%zmm5, %%zmm5" : : : "zmm5");
     asm volatile("vsubpd %%zmm6, %%zmm6, %%zmm6" : : : "zmm6");
     asm volatile("vsubpd %%zmm7, %%zmm7, %%zmm7" : : : "zmm7");
+    asm volatile("vsubpd %%zmm8, %%zmm8, %%zmm8" : : : "zmm8");
+    asm volatile("vsubpd %%zmm9, %%zmm9, %%zmm9" : : : "zmm9");
+    asm volatile("vsubpd %%zmm10, %%zmm10, %%zmm10" : : : "zmm10");
+    asm volatile("vsubpd %%zmm11, %%zmm11, %%zmm11" : : : "zmm11");
+    asm volatile("vsubpd %%zmm12, %%zmm12, %%zmm12" : : : "zmm12");
+    asm volatile("vsubpd %%zmm13, %%zmm13, %%zmm13" : : : "zmm13");
+    asm volatile("vsubpd %%zmm14, %%zmm14, %%zmm14" : : : "zmm14");
+    asm volatile("vsubpd %%zmm15, %%zmm15, %%zmm15" : : : "zmm15");
+    asm volatile("vsubpd %%zmm16, %%zmm16, %%zmm16" : : : "zmm16");
+    asm volatile("vsubpd %%zmm17, %%zmm17, %%zmm17" : : : "zmm17");
+    asm volatile("vsubpd %%zmm18, %%zmm18, %%zmm18" : : : "zmm18");
+    asm volatile("vsubpd %%zmm19, %%zmm19, %%zmm19" : : : "zmm19");
+    asm volatile("vsubpd %%zmm20, %%zmm20, %%zmm20" : : : "zmm20");
+    asm volatile("vsubpd %%zmm21, %%zmm21, %%zmm21" : : : "zmm21");
+    asm volatile("vsubpd %%zmm22, %%zmm22, %%zmm22" : : : "zmm22");
+    asm volatile("vsubpd %%zmm23, %%zmm23, %%zmm23" : : : "zmm23");
+    asm volatile("vsubpd %%zmm24, %%zmm24, %%zmm24" : : : "zmm24");
+    asm volatile("vsubpd %%zmm25, %%zmm25, %%zmm25" : : : "zmm25");
+    asm volatile("vsubpd %%zmm26, %%zmm26, %%zmm26" : : : "zmm26");
+    asm volatile("vsubpd %%zmm27, %%zmm27, %%zmm27" : : : "zmm27");
+    asm volatile("vsubpd %%zmm28, %%zmm28, %%zmm28" : : : "zmm28");
+    asm volatile("vsubpd %%zmm29, %%zmm29, %%zmm29" : : : "zmm29");
+    asm volatile("vsubpd %%zmm30, %%zmm30, %%zmm30" : : : "zmm30");
+    asm volatile("vsubpd %%zmm31, %%zmm31, %%zmm31" : : : "zmm31");
 
-    asm volatile("vmovapd (%%rsp), %%zmm0" : : : "zmm0");
-    asm volatile("vmovapd (%%rsp), %%zmm1" : : : "zmm1");
-    asm volatile("vmovapd (%%rsp), %%zmm2" : : : "zmm2");
-    asm volatile("vmovapd (%%rsp), %%zmm3" : : : "zmm3");
-    asm volatile("vmovapd (%%rsp), %%zmm4" : : : "zmm4");
-    asm volatile("vmovapd (%%rsp), %%zmm5" : : : "zmm5");
-    asm volatile("vmovapd (%%rsp), %%zmm6" : : : "zmm6");
-    asm volatile("vmovapd (%%rsp), %%zmm7" : : : "zmm7");
 
     asm volatile("pop %%rbx" : : : "rbx");
 
@@ -81,36 +97,35 @@ int main (int argc, char *argv[]) {
         asm volatile("vaddpd %%zmm6, %%zmm6, %%zmm6" : : : "zmm6");
         asm volatile("vaddpd %%zmm7, %%zmm7, %%zmm7" : : : "zmm7");
 
-        asm volatile("vaddpd %%zmm0, %%zmm0, %%zmm0" : : : "zmm0");
-        asm volatile("vaddpd %%zmm1, %%zmm1, %%zmm1" : : : "zmm1");
-        asm volatile("vaddpd %%zmm2, %%zmm2, %%zmm2" : : : "zmm2");
-        asm volatile("vaddpd %%zmm3, %%zmm3, %%zmm3" : : : "zmm3");
-        asm volatile("vaddpd %%zmm4, %%zmm4, %%zmm4" : : : "zmm4");
-        asm volatile("vaddpd %%zmm5, %%zmm5, %%zmm5" : : : "zmm5");
-        asm volatile("vaddpd %%zmm6, %%zmm6, %%zmm6" : : : "zmm6");
-        asm volatile("vaddpd %%zmm7, %%zmm7, %%zmm7" : : : "zmm7");
-
-        asm volatile("vaddpd %%zmm0, %%zmm0, %%zmm0" : : : "zmm0");
-        asm volatile("vaddpd %%zmm1, %%zmm1, %%zmm1" : : : "zmm1");
-        asm volatile("vaddpd %%zmm2, %%zmm2, %%zmm2" : : : "zmm2");
-        asm volatile("vaddpd %%zmm3, %%zmm3, %%zmm3" : : : "zmm3");
-        asm volatile("vaddpd %%zmm4, %%zmm4, %%zmm4" : : : "zmm4");
-        asm volatile("vaddpd %%zmm5, %%zmm5, %%zmm5" : : : "zmm5");
-        asm volatile("vaddpd %%zmm6, %%zmm6, %%zmm6" : : : "zmm6");
-        asm volatile("vaddpd %%zmm7, %%zmm7, %%zmm7" : : : "zmm7");
-
-        asm volatile("vaddpd %%zmm0, %%zmm0, %%zmm0" : : : "zmm0");
-        asm volatile("vaddpd %%zmm1, %%zmm1, %%zmm1" : : : "zmm1");
-        asm volatile("vaddpd %%zmm2, %%zmm2, %%zmm2" : : : "zmm2");
-        asm volatile("vaddpd %%zmm3, %%zmm3, %%zmm3" : : : "zmm3");
-        asm volatile("vaddpd %%zmm4, %%zmm4, %%zmm4" : : : "zmm4");
-        asm volatile("vaddpd %%zmm5, %%zmm5, %%zmm5" : : : "zmm5");
-        asm volatile("vaddpd %%zmm6, %%zmm6, %%zmm6" : : : "zmm6");
-        asm volatile("vaddpd %%zmm7, %%zmm7, %%zmm7" : : : "zmm7");
+        asm volatile("vaddpd %%zmm8, %%zmm8, %%zmm8" : : : "zmm8");
+        asm volatile("vaddpd %%zmm9, %%zmm9, %%zmm9" : : : "zmm9");
+        asm volatile("vaddpd %%zmm10, %%zmm10, %%zmm10" : : : "zmm10");
+        asm volatile("vaddpd %%zmm11, %%zmm11, %%zmm11" : : : "zmm11");
+        asm volatile("vaddpd %%zmm12, %%zmm12, %%zmm12" : : : "zmm12");
+        asm volatile("vaddpd %%zmm13, %%zmm13, %%zmm13" : : : "zmm13");
+        asm volatile("vaddpd %%zmm14, %%zmm14, %%zmm14" : : : "zmm14");
+        asm volatile("vaddpd %%zmm15, %%zmm15, %%zmm15" : : : "zmm15");
+                                                                    
+        asm volatile("vaddpd %%zmm16, %%zmm16, %%zmm16" : : : "zmm16");
+        asm volatile("vaddpd %%zmm17, %%zmm17, %%zmm17" : : : "zmm17");
+        asm volatile("vaddpd %%zmm18, %%zmm18, %%zmm18" : : : "zmm18");
+        asm volatile("vaddpd %%zmm19, %%zmm19, %%zmm19" : : : "zmm19");
+        asm volatile("vaddpd %%zmm20, %%zmm20, %%zmm20" : : : "zmm20");
+        asm volatile("vaddpd %%zmm21, %%zmm21, %%zmm21" : : : "zmm21");
+        asm volatile("vaddpd %%zmm22, %%zmm22, %%zmm22" : : : "zmm22");
+        asm volatile("vaddpd %%zmm23, %%zmm23, %%zmm23" : : : "zmm23");
+                                                                    
+        asm volatile("vaddpd %%zmm24, %%zmm24, %%zmm24" : : : "zmm24");
+        asm volatile("vaddpd %%zmm25, %%zmm25, %%zmm25" : : : "zmm25");
+        asm volatile("vaddpd %%zmm26, %%zmm26, %%zmm26" : : : "zmm26");
+        asm volatile("vaddpd %%zmm27, %%zmm27, %%zmm27" : : : "zmm27");
+        asm volatile("vaddpd %%zmm28, %%zmm28, %%zmm28" : : : "zmm28");
+        asm volatile("vaddpd %%zmm29, %%zmm29, %%zmm29" : : : "zmm29");
+        asm volatile("vaddpd %%zmm30, %%zmm30, %%zmm30" : : : "zmm30");
+        asm volatile("vaddpd %%zmm31, %%zmm31, %%zmm31" : : : "zmm31");
     }
 
     asm volatile("push $0x0":::);
-    asm volatile("vmovapd %%zmm0, (%%rsp)" : : : );
     asm volatile("mov (%%rsp), %0" : "=r"(count) : : );
     asm volatile("pop %%rbx" : : : "rbx");
 
