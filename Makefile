@@ -9,7 +9,7 @@ SOURCES := $(shell find $(SRCDIR) -type f -name *.c)
 OBJECTS := $(patsubst $(SRCDIR)/%, $(BUILDDIR)/%, $(SOURCES:.c=.o))
 TARGETS := $(patsubst $(SRCDIR)/%, $(BINDIR)/%, $(SOURCES:.c=))
 
-FLAGS = -O1 -Wall -Wextra -Werror -static # -ggdb
+FLAGS = -O1 -Wall -Wextra -Werror -static -march=cascadelake  # -ggdb
 LDFLAGS = -static # -ggdb
 CFLAGS = $(FLAGS)
 
