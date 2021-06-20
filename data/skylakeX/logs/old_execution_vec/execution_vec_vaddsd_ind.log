@@ -1,0 +1,276 @@
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 0 of 35028931
+Total Progress   0.0000%
+Global IPC(-nan)
+Global ETC(-nan:-nan:-nan)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vaddsd_ind.out
+Actual Cycle 0
+Opcodes Processed: 0 of 35028931
+Uops Fetched/Uops Total: 0 of 35028930
+Uops Completed/uops decoded: 0 of 1
+Total Progress   0.0000%
+IPC(-nan)
+ETC(-nan:-nan:-nan)
+KIPS(-nan)
+Elapsed Time (00:00:00)
+==========================================================================
+
+End of dynamic simulation trace
+End of Simulation
+Writing FILE
+Global_Statistics
+#===============================================#
+Global_Cycle: 8804128
+Global_IPC: 3.978694
+Elapsed Time (00:00:27)
+KIPS: 1297.367778
+#===============================================#
+#===============================================#
+Statistics of Core 0
+#========================================================================#
+trace_reader_t
+fetch_instructions: 35028930
+#========================================================================#
+#========================================================================#
+Total_Cycle:  8804127
+#===============================================#
+Stage_Opcode_and_Uop_Counters
+#===============================================#
+Stage_Fetch:  35028931
+Stage_Decode: 35028931
+Stage_Rename: 35031055
+Stage_Commit: 35031054
+#========================================================================#
+Instruction_Per_Cycle:            3.978694
+FU decode:
+INT_ALU: 35023044 1.000000
+INT_MUL: 27 3.000000
+INT_DIV: 5 32.000000
+FP_ALU: 514 3.000000
+FP_MUL: 0 0.000000
+FP_DIV: 11 10.000000
+LOAD: 5653 1.000000
+STORE: 1800 1.000000
+
+MPKI:                             0.008935
+Average_wait_cycles_wait_mem_req: 61.370777
+Core_Request_RAM_AVG_Cycle:       -nan
+Total_Load_Requests:              5653
+Total_Store_Requests:             1800
+Total_HIVE_Instructions:          0
+Total_VIMA_Instructions:          0
+#========================================================================#
+Total_OP_NOP   _Instructions:         83
+Total_OP_NOP   _Instructions_Latency: 9691
+Avg._OP_NOP   _Instructions_Latency:  116
+Max_OP_NOP   _Instructions_Latency:   1001
+Min_OP_NOP   _Instructions_Latency:   9
+Total_OP_IN_ALU_Instructions:         2016430
+Total_OP_IN_ALU_Instructions_Latency: 175712258
+Avg._OP_IN_ALU_Instructions_Latency:  87
+Max_OP_IN_ALU_Instructions_Latency:   1869
+Min_OP_IN_ALU_Instructions_Latency:   9
+Total_OP_IN_MUL_Instructions:         28
+Total_OP_IN_MUL_Instructions_Latency: 3461
+Avg._OP_IN_MUL_Instructions_Latency:  123
+Max_OP_IN_MUL_Instructions_Latency:   775
+Min_OP_IN_MUL_Instructions_Latency:   11
+Total_OP_IN_DIV_Instructions:         5
+Total_OP_IN_DIV_Instructions_Latency: 296
+Avg._OP_IN_DIV_Instructions_Latency:  59
+Max_OP_IN_DIV_Instructions_Latency:   79
+Min_OP_IN_DIV_Instructions_Latency:   41
+Total_OP_FP_ALU_Instructions:         517
+Total_OP_FP_ALU_Instructions_Latency: 142113
+Avg._OP_FP_ALU_Instructions_Latency:  274
+Max_OP_FP_ALU_Instructions_Latency:   1614
+Min_OP_FP_ALU_Instructions_Latency:   96
+Total_OP_FP_DIV_Instructions:         11
+Total_OP_FP_DIV_Instructions_Latency: 1719
+Avg._OP_FP_DIV_Instructions_Latency:  156
+Max_OP_FP_DIV_Instructions_Latency:   720
+Min_OP_FP_DIV_Instructions_Latency:   18
+Total_OP_BRANCH_Instructions:         1008556
+Total_OP_BRANCH_Instructions_Latency: 87809695
+Avg._OP_BRANCH_Instructions_Latency:  87
+Max_OP_BRANCH_Instructions_Latency:   1796
+Min_OP_BRANCH_Instructions_Latency:   9
+Total_OP_LOAD  _Instructions:         3788
+Total_OP_LOAD  _Instructions_Latency: 421166
+Avg._OP_LOAD  _Instructions_Latency:  111
+Max_OP_LOAD  _Instructions_Latency:   1908
+Min_OP_LOAD  _Instructions_Latency:   10
+Total_OP_STORE _Instructions:         1541
+Total_OP_STORE _Instructions_Latency: 336477
+Avg._OP_STORE _Instructions_Latency:  218
+Max_OP_STORE _Instructions_Latency:   1869
+Min_OP_STORE _Instructions_Latency:   9
+Total_OP_OTHER _Instructions:         32000095
+Total_OP_OTHER _Instructions_Latency: 2783985244
+Avg._OP_OTHER _Instructions_Latency:  86
+Max_OP_OTHER _Instructions_Latency:   459
+Min_OP_OTHER _Instructions_Latency:   9
+#========================================================================#
+#===============================================#
+#Memory Disambiguation
+#===============================================#
+Total_Read_false_Positives:       367
+Total_Write_false_Positives:      184
+Total_Resolve_Address_to_Address: 237
+#===============================================#
+#========================================================================#
+#Branch Prodiction
+#========================================================================#
+BTB Hits:                    1006989
+BTB Miss:                    1105
+Total Branchs:               1008094
+Total Branchs Taken:         1003294
+Total Branchs Not Taken:     4800
+Correct Branchs Taken:       1002856
+Incorrect Branchs Taken:     438
+Correct Branchs Not Taken:   1980
+Incorrect Branchs Not Taken: 2820
+#========================================================================#
+#========================================================================#
+#Cache Manager
+#========================================================================#
+Total Reads:                       5416
+Total Writes:                      1800
+Total RAM requests:                870
+Total RAM request latency cycles:  189054
+Avg. wait for RAM requests:        217
+Min. wait for RAM requests:        118
+Max. wait for RAM requests:        1853
+#========================================================================#
+READ _Tot._Latency_Hierarchy:  49599
+READ _Avg._Latency_Hierarchy:  13
+READ _Min._Latency_Hierarchy:  5
+READ _Max._Latency_Hierarchy:  1087
+WRITE_Tot._Latency_Hierarchy:  53079
+WRITE_Avg._Latency_Hierarchy:  64
+WRITE_Min._Latency_Hierarchy:  5
+WRITE_Max._Latency_Hierarchy:  1853
+INST _Tot._Latency_Hierarchy:  16134258
+INST _Avg._Latency_Hierarchy:  5
+INST _Min._Latency_Hierarchy:  5
+INST _Max._Latency_Hierarchy:  733
+#========================================================================#
+#L1 INSTRUCTION Cache
+#========================================================================#
+0_Cache_Access:       3005385
+0_Cache_Hits:         3004826
+0_Cache_Miss:         559
+0_Cache_Eviction:     557
+0_Cache_Read:         0
+0_Cache_Write:        0
+0_Cache_Inst:         3005385
+0_Cache_Inst_Hit:     3004826
+0_Cache_Inst_Miss:    559
+0_Avg._INST _Latency: 4
+0_Min._INST _Latency: 4
+0_Max._INST _Latency: 732
+0_MSHR_Max_Reached:   9
+#========================================================================#
+#L1 DATA Cache
+#========================================================================#
+0_Cache_Access:       4566
+0_Cache_Hits:         4253
+0_Cache_Miss:         313
+0_Cache_Eviction:     313
+0_Cache_Read:         3746
+0_Cache_Read_Hit:     3580
+0_Cache_Read_Miss:    166
+0_Cache_Write:        820
+0_Cache_Write_Hit:    673
+0_Cache_Write_Miss:   147
+0_Cache_Inst:         0
+0_Avg._READ _Latency: 12
+0_Min._READ _Latency: 4
+0_Max._READ _Latency: 1086
+0_Avg._WRITE_Latency: 63
+0_Min._WRITE_Latency: 4
+0_Max._WRITE_Latency: 1852
+0_MSHR_Max_Reached:   20
+#========================================================================#
+#L2 DATA Cache
+#========================================================================#
+1_Cache_Access:       872
+1_Cache_Hits:         2
+1_Cache_Miss:         870
+1_Cache_Eviction:     870
+1_Cache_Read:         166
+1_Cache_Read_Miss:    166
+1_Cache_Write:        147
+1_Cache_Write_Miss:   147
+1_Cache_Inst:         559
+1_Cache_Inst_Hit:     2
+1_Cache_Inst_Miss:    557
+1_Avg._READ _Latency: 181
+1_Min._READ _Latency: 118
+1_Max._READ _Latency: 1082
+1_Avg._WRITE_Latency: 331
+1_Min._WRITE_Latency: 113
+1_Max._WRITE_Latency: 1848
+1_Avg._INST _Latency: 189
+1_Min._INST _Latency: 20
+1_Max._INST _Latency: 727
+1_MSHR_Max_Reached:   22
+#========================================================================#
+#L3 DATA Cache
+#========================================================================#
+2_Cache_Access:       870
+2_Cache_Hits:         0
+2_Cache_Miss:         870
+2_Cache_Eviction:     870
+2_Cache_Read:         166
+2_Cache_Read_Miss:    166
+2_Cache_Write:        147
+2_Cache_Write_Miss:   147
+2_Cache_Inst:         557
+2_Cache_Inst_Miss:    557
+2_Avg._READ _Latency: 161
+2_Min._READ _Latency: 98
+2_Max._READ _Latency: 1062
+2_Avg._WRITE_Latency: 311
+2_Min._WRITE_Latency: 93
+2_Max._WRITE_Latency: 1828
+2_Avg._INST _Latency: 169
+2_Min._INST _Latency: 98
+2_Max._INST _Latency: 707
+2_MSHR_Max_Reached:   22
+#===============================================#
+#========================================================================#
+#Memory Controller
+#========================================================================#
+Requests_Made:               870
+Requests_from_LLC:           870
+Row_Buffer_Hit,  Channel  0: 475
+Row_Buffer_Miss, Channel  0: 49
+Row_Buffer_Hit,  Channel  1: 288
+Row_Buffer_Miss, Channel  1: 58
+Row_Buffer Total_Hits:       763
+Row_Buffer_Total_Misses:     107
+Row_Buffer_Miss_Ratio:       0.122989
+READ _Tot._Latency:          17857
+READ _Avg._Latency:          107
+READ _Min._Latency:          44
+READ _Max._Latency:          101
+WRITE_Tot._Latency:          30339
+WRITE_Avg._Latency:          206
+WRITE_Min._Latency:          39
+WRITE_Max._Latency:          92
+INST _Tot._Latency:          64410
+INST _Avg._Latency:          115
+INST _Min._Latency:          44
+INST _Max._Latency:          78
+#========================================================================#
+Deleting Trace Reader
+Deleting Branch predictor
+Deleting Cache manager
+Deleting HIVE Controller
+Deleting VIMA Controller
+Deleting Memory Controller
+Deleting Processor

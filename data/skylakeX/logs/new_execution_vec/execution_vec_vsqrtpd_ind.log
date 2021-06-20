@@ -1,0 +1,975 @@
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 0 of 35028938
+Total Progress   0.0000%
+Global IPC(-nan)
+Global ETC(-nan:-nan:-nan)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 0
+Opcodes Processed: 0 of 35028938
+Instructions Fetched/Instructions Total: 0 of 35028937
+Uops Completed/Uops decoded: 0 of 1
+Total Progress   0.0000%
+IPC(-nan)
+ETC(-nan:-nan:-nan)
+KIPS(-nan)
+Elapsed Time (00:00:00)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 1115315 of 35028938
+Total Progress   3.1840%
+Global IPC(0.111532)
+Global ETC(00:02:02)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 10000000
+Opcodes Processed: 1115315 of 35028938
+Instructions Fetched/Instructions Total: 1115315 of 35028937
+Uops Completed/Uops decoded: 1118120 of 1118345
+Total Progress   3.1840%
+IPC(0.111532)
+ETC(00:02:02)
+KIPS(278.828750)
+Elapsed Time (00:00:04)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 2209065 of 35028938
+Total Progress   6.3064%
+Global IPC(0.110453)
+Global ETC(00:01:59)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 20000000
+Opcodes Processed: 2209065 of 35028938
+Instructions Fetched/Instructions Total: 2209065 of 35028937
+Uops Completed/Uops decoded: 2211870 of 2212095
+Total Progress   6.3064%
+IPC(0.110453)
+ETC(00:01:59)
+KIPS(276.133125)
+Elapsed Time (00:00:08)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 3302815 of 35028938
+Total Progress   9.4288%
+Global IPC(0.110094)
+Global ETC(00:01:55)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 30000000
+Opcodes Processed: 3302815 of 35028938
+Instructions Fetched/Instructions Total: 3302815 of 35028937
+Uops Completed/Uops decoded: 3305620 of 3305845
+Total Progress   9.4288%
+IPC(0.110094)
+ETC(00:01:55)
+KIPS(275.234583)
+Elapsed Time (00:00:12)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 4396565 of 35028938
+Total Progress  12.5512%
+Global IPC(0.109914)
+Global ETC(00:01:51)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 40000000
+Opcodes Processed: 4396565 of 35028938
+Instructions Fetched/Instructions Total: 4396565 of 35028937
+Uops Completed/Uops decoded: 4399370 of 4399595
+Total Progress  12.5512%
+IPC(0.109914)
+ETC(00:01:51)
+KIPS(274.785312)
+Elapsed Time (00:00:16)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 5490315 of 35028938
+Total Progress  15.6737%
+Global IPC(0.109806)
+Global ETC(00:01:42)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 50000000
+Opcodes Processed: 5490315 of 35028938
+Instructions Fetched/Instructions Total: 5490315 of 35028937
+Uops Completed/Uops decoded: 5493120 of 5493345
+Total Progress  15.6737%
+IPC(0.109806)
+ETC(00:01:42)
+KIPS(288.963947)
+Elapsed Time (00:00:19)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 6584065 of 35028938
+Total Progress  18.7961%
+Global IPC(0.109734)
+Global ETC(00:01:39)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 60000000
+Opcodes Processed: 6584065 of 35028938
+Instructions Fetched/Instructions Total: 6584065 of 35028937
+Uops Completed/Uops decoded: 6586870 of 6587095
+Total Progress  18.7961%
+IPC(0.109734)
+ETC(00:01:39)
+KIPS(286.263696)
+Elapsed Time (00:00:23)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 7677815 of 35028938
+Total Progress  21.9185%
+Global IPC(0.109683)
+Global ETC(00:01:36)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 70000000
+Opcodes Processed: 7677815 of 35028938
+Instructions Fetched/Instructions Total: 7677815 of 35028937
+Uops Completed/Uops decoded: 7680620 of 7680845
+Total Progress  21.9185%
+IPC(0.109683)
+ETC(00:01:36)
+KIPS(284.363519)
+Elapsed Time (00:00:27)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 8771565 of 35028938
+Total Progress  25.0409%
+Global IPC(0.109645)
+Global ETC(00:01:33)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 80000000
+Opcodes Processed: 8771565 of 35028938
+Instructions Fetched/Instructions Total: 8771565 of 35028937
+Uops Completed/Uops decoded: 8774370 of 8774595
+Total Progress  25.0409%
+IPC(0.109645)
+ETC(00:01:33)
+KIPS(282.953710)
+Elapsed Time (00:00:31)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 9865315 of 35028938
+Total Progress  28.1633%
+Global IPC(0.109615)
+Global ETC(00:01:29)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 90000000
+Opcodes Processed: 9865315 of 35028938
+Instructions Fetched/Instructions Total: 9865315 of 35028937
+Uops Completed/Uops decoded: 9868120 of 9868345
+Total Progress  28.1633%
+IPC(0.109615)
+ETC(00:01:29)
+KIPS(281.866143)
+Elapsed Time (00:00:35)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 10959065 of 35028938
+Total Progress  31.2857%
+Global IPC(0.109591)
+Global ETC(00:01:26)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 100000000
+Opcodes Processed: 10959065 of 35028938
+Instructions Fetched/Instructions Total: 10959065 of 35028937
+Uops Completed/Uops decoded: 10961870 of 10962095
+Total Progress  31.2857%
+IPC(0.109591)
+ETC(00:01:26)
+KIPS(281.001667)
+Elapsed Time (00:00:39)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 12052815 of 35028938
+Total Progress  34.4082%
+Global IPC(0.109571)
+Global ETC(00:01:22)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 110000000
+Opcodes Processed: 12052815 of 35028938
+Instructions Fetched/Instructions Total: 12052815 of 35028937
+Uops Completed/Uops decoded: 12055620 of 12055845
+Total Progress  34.4082%
+IPC(0.109571)
+ETC(00:01:22)
+KIPS(280.298023)
+Elapsed Time (00:00:43)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 13146565 of 35028938
+Total Progress  37.5306%
+Global IPC(0.109555)
+Global ETC(00:01:18)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 120000000
+Opcodes Processed: 13146565 of 35028938
+Instructions Fetched/Instructions Total: 13146565 of 35028937
+Uops Completed/Uops decoded: 13149370 of 13149595
+Total Progress  37.5306%
+IPC(0.109555)
+ETC(00:01:18)
+KIPS(279.714149)
+Elapsed Time (00:00:47)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 14240315 of 35028938
+Total Progress  40.6530%
+Global IPC(0.109541)
+Global ETC(00:01:13)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 130000000
+Opcodes Processed: 14240315 of 35028938
+Instructions Fetched/Instructions Total: 14240315 of 35028937
+Uops Completed/Uops decoded: 14243120 of 14243345
+Total Progress  40.6530%
+IPC(0.109541)
+ETC(00:01:13)
+KIPS(284.806300)
+Elapsed Time (00:00:50)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 15334065 of 35028938
+Total Progress  43.7754%
+Global IPC(0.109529)
+Global ETC(00:01:09)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 140000000
+Opcodes Processed: 15334065 of 35028938
+Instructions Fetched/Instructions Total: 15334065 of 35028937
+Uops Completed/Uops decoded: 15336870 of 15337095
+Total Progress  43.7754%
+IPC(0.109529)
+ETC(00:01:09)
+KIPS(283.964167)
+Elapsed Time (00:00:54)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 16427815 of 35028938
+Total Progress  46.8978%
+Global IPC(0.109519)
+Global ETC(00:01:05)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 150000000
+Opcodes Processed: 16427815 of 35028938
+Instructions Fetched/Instructions Total: 16427815 of 35028937
+Uops Completed/Uops decoded: 16430620 of 16430845
+Total Progress  46.8978%
+IPC(0.109519)
+ETC(00:01:05)
+KIPS(288.207281)
+Elapsed Time (00:00:57)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 17521565 of 35028938
+Total Progress  50.0203%
+Global IPC(0.109510)
+Global ETC(00:01:01)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 160000000
+Opcodes Processed: 17521565 of 35028938
+Instructions Fetched/Instructions Total: 17521565 of 35028937
+Uops Completed/Uops decoded: 17524370 of 17524595
+Total Progress  50.0203%
+IPC(0.109510)
+ETC(00:01:01)
+KIPS(287.238770)
+Elapsed Time (00:01:01)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 18615315 of 35028938
+Total Progress  53.1427%
+Global IPC(0.109502)
+Global ETC(00:00:57)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 170000000
+Opcodes Processed: 18615315 of 35028938
+Instructions Fetched/Instructions Total: 18615315 of 35028937
+Uops Completed/Uops decoded: 18618120 of 18618345
+Total Progress  53.1427%
+IPC(0.109502)
+ETC(00:00:57)
+KIPS(286.389462)
+Elapsed Time (00:01:05)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 19709065 of 35028938
+Total Progress  56.2651%
+Global IPC(0.109495)
+Global ETC(00:00:53)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 180000000
+Opcodes Processed: 19709065 of 35028938
+Instructions Fetched/Instructions Total: 19709065 of 35028937
+Uops Completed/Uops decoded: 19711870 of 19712095
+Total Progress  56.2651%
+IPC(0.109495)
+ETC(00:00:53)
+KIPS(289.839191)
+Elapsed Time (00:01:08)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 20802815 of 35028938
+Total Progress  59.3875%
+Global IPC(0.109489)
+Global ETC(00:00:49)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 190000000
+Opcodes Processed: 20802815 of 35028938
+Instructions Fetched/Instructions Total: 20802815 of 35028937
+Uops Completed/Uops decoded: 20805620 of 20805845
+Total Progress  59.3875%
+IPC(0.109489)
+ETC(00:00:49)
+KIPS(288.927986)
+Elapsed Time (00:01:12)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 21896565 of 35028938
+Total Progress  62.5099%
+Global IPC(0.109483)
+Global ETC(00:00:46)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 200000000
+Opcodes Processed: 21896565 of 35028938
+Instructions Fetched/Instructions Total: 21896565 of 35028937
+Uops Completed/Uops decoded: 21899370 of 21899595
+Total Progress  62.5099%
+IPC(0.109483)
+ETC(00:00:46)
+KIPS(288.112697)
+Elapsed Time (00:01:16)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 22990315 of 35028938
+Total Progress  65.6323%
+Global IPC(0.109478)
+Global ETC(00:00:41)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 210000000
+Opcodes Processed: 22990315 of 35028938
+Instructions Fetched/Instructions Total: 22990315 of 35028937
+Uops Completed/Uops decoded: 22993120 of 22993345
+Total Progress  65.6324%
+IPC(0.109478)
+ETC(00:00:41)
+KIPS(291.016646)
+Elapsed Time (00:01:19)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 24084065 of 35028938
+Total Progress  68.7548%
+Global IPC(0.109473)
+Global ETC(00:00:38)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 220000000
+Opcodes Processed: 24084065 of 35028938
+Instructions Fetched/Instructions Total: 24084065 of 35028937
+Uops Completed/Uops decoded: 24086870 of 24087095
+Total Progress  68.7548%
+IPC(0.109473)
+ETC(00:00:38)
+KIPS(290.169458)
+Elapsed Time (00:01:23)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 25177815 of 35028938
+Total Progress  71.8772%
+Global IPC(0.109469)
+Global ETC(00:00:34)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 230000000
+Opcodes Processed: 25177815 of 35028938
+Instructions Fetched/Instructions Total: 25177815 of 35028937
+Uops Completed/Uops decoded: 25180620 of 25180845
+Total Progress  71.8772%
+IPC(0.109469)
+ETC(00:00:34)
+KIPS(292.765291)
+Elapsed Time (00:01:26)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 26271565 of 35028938
+Total Progress  74.9996%
+Global IPC(0.109465)
+Global ETC(00:00:30)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 240000000
+Opcodes Processed: 26271565 of 35028938
+Instructions Fetched/Instructions Total: 26271565 of 35028937
+Uops Completed/Uops decoded: 26274370 of 26274595
+Total Progress  74.9996%
+IPC(0.109465)
+ETC(00:00:30)
+KIPS(291.906278)
+Elapsed Time (00:01:30)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 27365315 of 35028938
+Total Progress  78.1220%
+Global IPC(0.109461)
+Global ETC(00:00:26)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 250000000
+Opcodes Processed: 27365315 of 35028938
+Instructions Fetched/Instructions Total: 27365315 of 35028937
+Uops Completed/Uops decoded: 27368120 of 27368345
+Total Progress  78.1220%
+IPC(0.109461)
+ETC(00:00:26)
+KIPS(291.120372)
+Elapsed Time (00:01:34)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 28459065 of 35028938
+Total Progress  81.2444%
+Global IPC(0.109458)
+Global ETC(00:00:22)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 260000000
+Opcodes Processed: 28459065 of 35028938
+Instructions Fetched/Instructions Total: 28459065 of 35028937
+Uops Completed/Uops decoded: 28461870 of 28462095
+Total Progress  81.2444%
+IPC(0.109458)
+ETC(00:00:22)
+KIPS(293.392423)
+Elapsed Time (00:01:37)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 29552815 of 35028938
+Total Progress  84.3669%
+Global IPC(0.109455)
+Global ETC(00:00:19)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 270000000
+Opcodes Processed: 29552815 of 35028938
+Instructions Fetched/Instructions Total: 29552815 of 35028937
+Uops Completed/Uops decoded: 29555620 of 29555845
+Total Progress  84.3669%
+IPC(0.109455)
+ETC(00:00:19)
+KIPS(292.602129)
+Elapsed Time (00:01:41)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 30646565 of 35028938
+Total Progress  87.4893%
+Global IPC(0.109452)
+Global ETC(00:00:15)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 280000000
+Opcodes Processed: 30646565 of 35028938
+Instructions Fetched/Instructions Total: 30646565 of 35028937
+Uops Completed/Uops decoded: 30649370 of 30649595
+Total Progress  87.4893%
+IPC(0.109452)
+ETC(00:00:15)
+KIPS(291.872048)
+Elapsed Time (00:01:45)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 31740315 of 35028938
+Total Progress  90.6117%
+Global IPC(0.109449)
+Global ETC(00:00:11)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 290000000
+Opcodes Processed: 31740315 of 35028938
+Instructions Fetched/Instructions Total: 31740315 of 35028937
+Uops Completed/Uops decoded: 31743120 of 31743345
+Total Progress  90.6117%
+IPC(0.109449)
+ETC(00:00:11)
+KIPS(293.891806)
+Elapsed Time (00:01:48)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 32834065 of 35028938
+Total Progress  93.7341%
+Global IPC(0.109447)
+Global ETC(00:00:07)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 300000000
+Opcodes Processed: 32834065 of 35028938
+Instructions Fetched/Instructions Total: 32834065 of 35028937
+Uops Completed/Uops decoded: 32836870 of 32837095
+Total Progress  93.7341%
+IPC(0.109447)
+ETC(00:00:07)
+KIPS(293.161295)
+Elapsed Time (00:01:52)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 33927815 of 35028938
+Total Progress  96.8565%
+Global IPC(0.109445)
+Global ETC(00:00:04)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 310000000
+Opcodes Processed: 33927815 of 35028938
+Instructions Fetched/Instructions Total: 33927815 of 35028937
+Uops Completed/Uops decoded: 33930620 of 33930845
+Total Progress  96.8565%
+IPC(0.109445)
+ETC(00:00:04)
+KIPS(292.481164)
+Elapsed Time (00:01:56)
+==========================================================================
+
+==========================================================================
+Active Cores: 1 of 1
+Opcodes Processed: 35021565 of 35028938
+Total Progress  99.9790%
+Global IPC(0.109442)
+Global ETC(00:00:00)
+==========================================================================
+======================Processor 1 of 1===============================
+Benchmark /home/bft15/microbenchmarks/data/skylakeX/traces/execution_vec/execution_vec_vsqrtpd_ind.out
+Actual Cycle 320000000
+Opcodes Processed: 35021565 of 35028938
+Instructions Fetched/Instructions Total: 35021565 of 35028937
+Uops Completed/Uops decoded: 35024370 of 35024595
+Total Progress  99.9790%
+IPC(0.109442)
+ETC(00:00:00)
+KIPS(294.298866)
+Elapsed Time (00:01:59)
+==========================================================================
+
+End of dynamic simulation trace
+End of Simulation
+Writing FILE
+Global_Statistics
+#===============================================#
+Global_Cycle: 320053375
+Global_IPC: 0.109447
+Elapsed Time (00:01:59)
+KIPS: 294.360815
+#===============================================#
+#===============================================#
+Statistics of Core 0
+#========================================================================#
+trace_reader_t
+fetch_instructions: 35028937
+#========================================================================#
+#========================================================================#
+Total_Cycle:  320053374
+#===============================================#
+Stage_Opcode_and_Uop_Counters
+#===============================================#
+Stage_Fetch:  35028938
+Stage_Decode: 35028938
+Stage_Rename: 35032241
+Stage_Commit: 35032240
+#========================================================================#
+Instruction_Per_Cycle:            0.109447
+FU decode:
+ALU: 3019625 1.000074
+Bit_Manipulation: 33 1.000000
+DIV: 32000057 13.999998
+FP_Mov: 0 0.000000
+SIMD_Misc: 0 0.000000
+Shift: 2963 1.000000
+Shuffle: 249 1.136546
+Slow_Int: 1477 3.000000
+Vec_ALU: 213 1.000000
+Vec_Add: 139 1.172662
+Vec_FMA: 0 0.000000
+Vec_Mul: 0 0.000000
+Vec_Shift: 30 1.000000
+LOAD_UNIT: 5654 1.000000
+STORE_UNIT: 1800 1.000000
+
+FU dispatch count:
+ALU: 3019625
+Bit_Manipulation: 33
+DIV: 32000057
+FP_Mov: 0
+SIMD_Misc: 0
+Shift: 2963
+Shuffle: 249
+Slow_Int: 1477
+Vec_ALU: 213
+Vec_Add: 139
+Vec_FMA: 0
+Vec_Mul: 0
+Vec_Shift: 30
+LOAD_UNIT: 5654
+STORE_UNIT: 1800
+
+FU exec count:
+ALU: 3019625
+Bit_Manipulation: 33
+DIV: 32000057
+FP_Mov: 0
+SIMD_Misc: 0
+Shift: 2963
+Shuffle: 249
+Slow_Int: 1477
+Vec_ALU: 213
+Vec_Add: 139
+Vec_FMA: 0
+Vec_Mul: 0
+Vec_Shift: 30
+LOAD_UNIT: 5654
+STORE_UNIT: 1800
+
+FU completed count:
+ALU: 3019625
+Bit_Manipulation: 33
+DIV: 32000057
+FP_Mov: 0
+SIMD_Misc: 0
+Shift: 2963
+Shuffle: 249
+Slow_Int: 1477
+Vec_ALU: 213
+Vec_Add: 139
+Vec_FMA: 0
+Vec_Mul: 0
+Vec_Shift: 30
+LOAD_UNIT: 5654
+STORE_UNIT: 1800
+
+
+MPKI:                             0.024780
+Average_wait_cycles_wait_mem_req: 75.483727
+Core_Request_RAM_AVG_Cycle:       -nan
+Total_Load_Requests:              5654
+Total_Store_Requests:             1800
+Total_HIVE_Instructions:          0
+Total_VIMA_Instructions:          0
+#========================================================================#
+Total_OP_NOP   _Instructions:         146
+Total_OP_NOP   _Instructions_Latency: 16647
+Avg._OP_NOP   _Instructions_Latency:  114
+Max_OP_NOP   _Instructions_Latency:   1066
+Min_OP_NOP   _Instructions_Latency:   9
+Total_OP_IN_ALU_Instructions:         2017462
+Total_OP_IN_ALU_Instructions_Latency: 6412001469
+Avg._OP_IN_ALU_Instructions_Latency:  3178
+Max_OP_IN_ALU_Instructions_Latency:   3210
+Min_OP_IN_ALU_Instructions_Latency:   9
+Total_OP_IN_MUL_Instructions:         49
+Total_OP_IN_MUL_Instructions_Latency: 9174
+Avg._OP_IN_MUL_Instructions_Latency:  187
+Max_OP_IN_MUL_Instructions_Latency:   976
+Min_OP_IN_MUL_Instructions_Latency:   10
+Total_OP_IN_DIV_Instructions:         40
+Total_OP_IN_DIV_Instructions_Latency: 1767
+Avg._OP_IN_DIV_Instructions_Latency:  44
+Max_OP_IN_DIV_Instructions_Latency:   92
+Min_OP_IN_DIV_Instructions_Latency:   10
+Total_OP_FP_ALU_Instructions:         517
+Total_OP_FP_ALU_Instructions_Latency: 149759
+Avg._OP_FP_ALU_Instructions_Latency:  289
+Max_OP_FP_ALU_Instructions_Latency:   2193
+Min_OP_FP_ALU_Instructions_Latency:   163
+Total_OP_FP_DIV_Instructions:         22
+Total_OP_FP_DIV_Instructions_Latency: 3500
+Avg._OP_FP_DIV_Instructions_Latency:  159
+Max_OP_FP_DIV_Instructions_Latency:   724
+Min_OP_FP_DIV_Instructions_Latency:   9
+Total_OP_BRANCH_Instructions:         1008558
+Total_OP_BRANCH_Instructions_Latency: 3200956766
+Avg._OP_BRANCH_Instructions_Latency:  3173
+Max_OP_BRANCH_Instructions_Latency:   3200
+Min_OP_BRANCH_Instructions_Latency:   9
+Total_OP_LOAD  _Instructions:         3788
+Total_OP_LOAD  _Instructions_Latency: 541065
+Avg._OP_LOAD  _Instructions_Latency:  142
+Max_OP_LOAD  _Instructions_Latency:   3191
+Min_OP_LOAD  _Instructions_Latency:   10
+Total_OP_STORE _Instructions:         1541
+Total_OP_STORE _Instructions_Latency: 535912
+Avg._OP_STORE _Instructions_Latency:  347
+Max_OP_STORE _Instructions_Latency:   3201
+Min_OP_STORE _Instructions_Latency:   9
+Total_OP_OTHER _Instructions:         32000117
+Total_OP_OTHER _Instructions_Latency: 103029551647
+Avg._OP_OTHER _Instructions_Latency:  3219
+Max_OP_OTHER _Instructions_Latency:   3220
+Min_OP_OTHER _Instructions_Latency:   9
+#========================================================================#
+#===============================================#
+#Memory Disambiguation
+#===============================================#
+Total_Read_false_Positives:       348
+Total_Write_false_Positives:      295
+Total_Resolve_Address_to_Address: 238
+#===============================================#
+#========================================================================#
+#Branch Prodiction
+#========================================================================#
+BTB Hits:                    1006991
+BTB Miss:                    1105
+Total Branchs:               1008096
+Total Branchs Taken:         1003295
+Total Branchs Not Taken:     4801
+Correct Branchs Taken:       1002857
+Incorrect Branchs Taken:     438
+Correct Branchs Not Taken:   1980
+Incorrect Branchs Not Taken: 2821
+#========================================================================#
+#========================================================================#
+#Cache Manager
+#========================================================================#
+Total Reads:                       5416
+Total Writes:                      1800
+Total RAM requests:                868
+Total RAM request latency cycles:  185408
+Avg. wait for RAM requests:        213
+Min. wait for RAM requests:        118
+Max. wait for RAM requests:        1087
+#========================================================================#
+READ _Tot._Latency_Hierarchy:  50990
+READ _Avg._Latency_Hierarchy:  13
+READ _Min._Latency_Hierarchy:  5
+READ _Max._Latency_Hierarchy:  1087
+WRITE_Tot._Latency_Hierarchy:  51394
+WRITE_Avg._Latency_Hierarchy:  61
+WRITE_Min._Latency_Hierarchy:  5
+WRITE_Max._Latency_Hierarchy:  1024
+INST _Tot._Latency_Hierarchy:  160129684
+INST _Avg._Latency_Hierarchy:  5
+INST _Min._Latency_Hierarchy:  5
+INST _Max._Latency_Hierarchy:  763
+#========================================================================#
+#L1 INSTRUCTION Cache
+#========================================================================#
+0_Cache_Access:       32005106
+0_Cache_Hits:         32004547
+0_Cache_Miss:         559
+0_Cache_Eviction:     557
+0_Cache_Read:         0
+0_Cache_Write:        0
+0_Cache_Inst:         32005106
+0_Cache_Inst_Hit:     32004547
+0_Cache_Inst_Miss:    559
+0_Avg._INST _Latency: 4
+0_Min._INST _Latency: 4
+0_Max._INST _Latency: 762
+0_MSHR_Max_Reached:   9
+#========================================================================#
+#L1 DATA Cache
+#========================================================================#
+0_Cache_Access:       4608
+0_Cache_Hits:         4297
+0_Cache_Miss:         311
+0_Cache_Eviction:     311
+0_Cache_Read:         3767
+0_Cache_Read_Hit:     3604
+0_Cache_Read_Miss:    163
+0_Cache_Write:        841
+0_Cache_Write_Hit:    693
+0_Cache_Write_Miss:   148
+0_Cache_Inst:         0
+0_Avg._READ _Latency: 12
+0_Min._READ _Latency: 4
+0_Max._READ _Latency: 1086
+0_Avg._WRITE_Latency: 60
+0_Min._WRITE_Latency: 4
+0_Max._WRITE_Latency: 1023
+0_MSHR_Max_Reached:   20
+#========================================================================#
+#L2 DATA Cache
+#========================================================================#
+1_Cache_Access:       870
+1_Cache_Hits:         2
+1_Cache_Miss:         868
+1_Cache_Eviction:     868
+1_Cache_Read:         163
+1_Cache_Read_Miss:    163
+1_Cache_Write:        148
+1_Cache_Write_Miss:   148
+1_Cache_Inst:         559
+1_Cache_Inst_Hit:     2
+1_Cache_Inst_Miss:    557
+1_Avg._READ _Latency: 193
+1_Min._READ _Latency: 118
+1_Max._READ _Latency: 1082
+1_Avg._WRITE_Latency: 316
+1_Min._WRITE_Latency: 113
+1_Max._WRITE_Latency: 1019
+1_Avg._INST _Latency: 183
+1_Min._INST _Latency: 20
+1_Max._INST _Latency: 758
+1_MSHR_Max_Reached:   22
+#========================================================================#
+#L3 DATA Cache
+#========================================================================#
+2_Cache_Access:       868
+2_Cache_Hits:         0
+2_Cache_Miss:         868
+2_Cache_Eviction:     868
+2_Cache_Read:         163
+2_Cache_Read_Miss:    163
+2_Cache_Write:        148
+2_Cache_Write_Miss:   148
+2_Cache_Inst:         557
+2_Cache_Inst_Miss:    557
+2_Avg._READ _Latency: 173
+2_Min._READ _Latency: 98
+2_Max._READ _Latency: 1062
+2_Avg._WRITE_Latency: 296
+2_Min._WRITE_Latency: 93
+2_Max._WRITE_Latency: 999
+2_Avg._INST _Latency: 164
+2_Min._INST _Latency: 98
+2_Max._INST _Latency: 738
+2_MSHR_Max_Reached:   22
+#===============================================#
+#========================================================================#
+#Memory Controller
+#========================================================================#
+Requests_Made:               868
+Requests_from_LLC:           868
+Row_Buffer_Hit,  Channel  0: 465
+Row_Buffer_Miss, Channel  0: 61
+Row_Buffer_Hit,  Channel  1: 284
+Row_Buffer_Miss, Channel  1: 58
+Row_Buffer Total_Hits:       749
+Row_Buffer_Total_Misses:     119
+Row_Buffer_Miss_Ratio:       0.137097
+READ _Tot._Latency:          19405
+READ _Avg._Latency:          119
+READ _Min._Latency:          44
+READ _Max._Latency:          100
+WRITE_Tot._Latency:          28977
+WRITE_Avg._Latency:          195
+WRITE_Min._Latency:          39
+WRITE_Max._Latency:          45
+INST _Tot._Latency:          61278
+INST _Avg._Latency:          110
+INST _Min._Latency:          44
+INST _Max._Latency:          78
+#========================================================================#
+Deleting Trace Reader
+Deleting Branch predictor
+Deleting Cache manager
+Deleting HIVE Controller
+Deleting VIMA Controller
+Deleting Memory Controller
+Deleting Processor

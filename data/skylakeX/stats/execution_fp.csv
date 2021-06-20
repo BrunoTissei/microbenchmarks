@@ -1,0 +1,9 @@
+Bench,IPC
+execution_fp_addsd_ind,2.14
+execution_fp_divsd_ind,0.27
+execution_fp_maxsd_ind,2.14
+execution_fp_mulsd_ind,2.14
+execution_fp_pslld_ind,1.08
+execution_fp_pxor_ind,3.09
+execution_fp_shufpd_ind,1.08
+execution_fp_sqrtsd_ind,0.24

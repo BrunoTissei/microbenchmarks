@@ -1,0 +1,8 @@
+Bench,IPC
+execution_int_add_ind,3.63
+execution_int_andn_ind,2.14
+execution_int_bextr_ind,1.96
+execution_int_div_ind,0.04
+execution_int_mul_ind,1.09
+execution_int_rcl_ind,0.19
+execution_int_shl_ind,2.08

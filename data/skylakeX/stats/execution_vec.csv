@@ -1,0 +1,10 @@
+Bench,IPC
+execution_vec_dpps_ind,0.58
+execution_vec_vaddsd_ind,2.14
+execution_vec_vcvtsi2sd_ind,1.08
+execution_vec_vdivsd_ind,0.27
+execution_vec_vmulsd_ind,2.14
+execution_vec_vpsllvq_ind,2.14
+execution_vec_vshufps_ind,1.08
+execution_vec_vsqrtpd_ind,0.24
+execution_vec_vxorpd_ind,3.07

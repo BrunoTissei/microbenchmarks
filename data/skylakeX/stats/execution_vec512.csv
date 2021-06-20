@@ -1,0 +1,9 @@
+Bench,IPC
+execution_vec512_vaddpd_ind,1.08
+execution_vec512_vdivpd_ind,0.07
+execution_vec512_vfmadd132pd_ind,1.08
+execution_vec512_vmulpd_ind,1.08
+execution_vec512_vpshufb_ind,1.08
+execution_vec512_vpsllvd_ind,1.08
+execution_vec512_vpxord_ind,2.13
+execution_vec512_vrsqrt14ps_ind,0.55
