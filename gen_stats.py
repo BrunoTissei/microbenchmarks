@@ -36,9 +36,9 @@ def stat_gen(args, file, *params):
     real = subprocess.check_output([
         f"""
         TEMP=$(mktemp .stats.XXXXXX.tmp) &&
-        (sudo perf stat --repeat=1000 ./bin/{file} {" ".join(map(str, params))}) > $TEMP.log 2>&1 && 
-        cat $TEMP.log | grep "insn per cycle" | awk \'{{ printf $4 }}\' &&
-        rm $TEMP.log
+        (sudo perf stat --repeat=500 ./bin/{file} {" ".join(map(str, params))}) > $TEMP 2>&1 && 
+        cat $TEMP | grep "insn per cycle" | awk \'{{ printf $4 }}\' &&
+        rm $TEMP
         """
     ], shell=True).decode('utf-8').replace(',', '.')
 
@@ -54,9 +54,9 @@ def stat_gen(args, file, *params):
 def main():
     args = parse_args()
 
-    print('bench,IPC')
+    print('Bench,IPC')
     if args.output_file != None:
-        print('bench,IPC', file=open(args.output_file, "a"))
+        print('Bench,IPC', file=open(args.output_file, "w"))
 
     if args.type == 'control':
         stat_gen(args, 'control_complex',     1*10**6)
@@ -106,13 +106,14 @@ def main():
         stat_gen(args, 'execution_vec_vxorpd_ind',    1*10**6)
 
     elif args.type == 'execution_vec512':
-        stat_gen(args, 'execution_vec512_vaddpd_ind',     1*10**6)
-        stat_gen(args, 'execution_vec512_vdivpd_ind',     1*10**6)
-        stat_gen(args, 'execution_vec512_vmulpd_ind',     1*10**6)
-        stat_gen(args, 'execution_vec512_vpshufb_ind',    1*10**6)
-        stat_gen(args, 'execution_vec512_vpsllvd_ind',    1*10**6)
-        stat_gen(args, 'execution_vec512_vpxord_ind',     1*10**6)
-        stat_gen(args, 'execution_vec512_vrsqrt14ps_ind', 1*10**6)
+        stat_gen(args, 'execution_vec512_vaddpd_ind',      1*10**6)
+        stat_gen(args, 'execution_vec512_vdivpd_ind',      1*10**6)
+        stat_gen(args, 'execution_vec512_vfmadd132pd_ind', 1*10**6)
+        stat_gen(args, 'execution_vec512_vmulpd_ind',      1*10**6)
+        stat_gen(args, 'execution_vec512_vpshufb_ind',     1*10**6)
+        stat_gen(args, 'execution_vec512_vpsllvd_ind',     1*10**6)
+        stat_gen(args, 'execution_vec512_vpxord_ind',      1*10**6)
+        stat_gen(args, 'execution_vec512_vrsqrt14ps_ind',  1*10**6)
 
     elif args.type == 'memory':
         stat_gen(args, 'memory_load_dep', 4*2048, 65536//64)

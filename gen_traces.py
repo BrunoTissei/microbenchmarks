@@ -40,7 +40,7 @@ def trace_gen(args, file, *params):
     orcs_path = os.path.abspath(args.orcs_path)
     trace_path = os.path.abspath(args.trace_path)
 
-    os.system(f'{orcs_path}/trace_generator/pin -t {orcs_path}/trace_generator/extras/pinplay/bin/intel64/sinuca_tracer.so -p64 -- ./bin/{file} {" ".join(map(str, params))}')
+    os.system(f'{orcs_path}/trace_generator/pin -t {orcs_path}/trace_generator/extras/pinplay/bin/intel64/sinuca_tracer.so -trace intel64 -- ./bin/{file} {" ".join(map(str, params))}')
 
     name = f'{file}'
     if len(params) > 1:
@@ -105,13 +105,14 @@ def main():
         trace_gen(args, 'execution_vec_vxorpd_ind',    1*10**6)
 
     elif args.type == 'execution_vec512':
-        trace_gen(args, 'execution_vec512_vaddpd_ind',     1*10**6)
-        trace_gen(args, 'execution_vec512_vdivpd_ind',     1*10**6)
-        trace_gen(args, 'execution_vec512_vmulpd_ind',     1*10**6)
-        trace_gen(args, 'execution_vec512_vpshufb_ind',    1*10**6)
-        trace_gen(args, 'execution_vec512_vpsllvd_ind',    1*10**6)
-        trace_gen(args, 'execution_vec512_vpxord_ind',     1*10**6)
-        trace_gen(args, 'execution_vec512_vrsqrt14ps_ind', 1*10**6)
+        trace_gen(args, 'execution_vec512_vaddpd_ind',      1*10**6)
+        trace_gen(args, 'execution_vec512_vdivpd_ind',      1*10**6)
+        trace_gen(args, 'execution_vec512_vfmadd132pd_ind', 1*10**6)
+        trace_gen(args, 'execution_vec512_vmulpd_ind',      1*10**6)
+        trace_gen(args, 'execution_vec512_vpshufb_ind',     1*10**6)
+        trace_gen(args, 'execution_vec512_vpsllvd_ind',     1*10**6)
+        trace_gen(args, 'execution_vec512_vpxord_ind',      1*10**6)
+        trace_gen(args, 'execution_vec512_vrsqrt14ps_ind',  1*10**6)
 
     elif args.type == 'memory':
         trace_gen(args, 'memory_load_dep', 4*2048, 65536//64)
